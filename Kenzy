@@ -1,0 +1,62 @@
+
+<html>
+    <head>
+        <title> Student form </title>
+        
+        <meta charset="utf-8">
+        <meta name ="description" content =" Stydent form ">
+        <style>
+            fieldset{ background: #fdfbfd;  }
+            legend{background: #FFF ; }
+        </style>
+    </head>
+        <body>
+            <p><h1>  NEW STUDENT </h1></p>
+            <form name ="register">
+                <fieldset>
+                    <legend> Personal Information </legend>
+               
+                <lable> Full Name : </lable>              
+                <input type="text" placeholder="Type Your Name" > 
+<br>
+                <lable> Birthdate : </lable>
+                <input type="date" >
+                <br>
+                <label>Gender : </label>
+                <input type="radio" name="Gender" > Male 
+                
+                <input type="radio" name="Gender" >Female
+            </fieldset>
+                <br><br>
+            <fieldset>
+                <legend> Contact Information </legend>
+                <lable> Email: </lable>              
+                <input type=" email" placeholder="Email" > 
+<br>
+                <lable> Phone : </lable>
+                <input type="tel"  placeholder="phone">
+                <br>
+                
+                 <label  >Address : </label>
+                 <textarea row="2" cols="20" ></textarea>
+
+                </fieldset>
+
+                 <br>
+                 <br>
+                <fieldset>
+                    <legend> University Information </legend>
+                 <label >Choose Your Faclty : </label>
+                 <select ><option>Faculty 1</option>
+                    <option>Computer science </option>
+                    <option>Engineering</option>
+                     <option>Pharmacy</option>
+                    </select>
+                </fieldset>
+<br>
+                 <input type ="submit" value="add" >
+
+            </form>
+        </body>
+    
+</html>
